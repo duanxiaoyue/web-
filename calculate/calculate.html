@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	<script src="act.js"></script>
+</head>
+<body>
+<table cellpadding="5px" cellspacing="3px" border="1px">
+	<tr>
+		<td colspan="3" id="result"></td>
+		<td><input type="button" name="clear" value="C" id="C" onclick="actionc()"></input></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="one" value="1" id="1" onclick="showData(1)"></input></td>
+		<td><input type="button" name="two" value="2" id="2" onclick="showData(2)"></input></td>
+		<td><input type="button" name="three" value="3" id="3" onclick="showData(3)"></input></td>
+		<td><input type="button" name="add" value="+" id="+" onclick="showData('+')"></input></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="four" value="4" id="4" onclick="showData(4)"></input></td>
+		<td><input type="button" name="five" value="5" id="5" onclick="showData(5)"></input></td>
+		<td><input type="button" name="six" value="6" id="6" onclick="showData(6)"></input></td>
+		<td><input type="button" name="sub" value="-" id="-" onclick="showData('-')"></input></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="seven" value="7" id="7" onclick="showData(7)"></input></td>
+		<td><input type="button" name="eight" value="8" id="8" onclick="showData(8)"></input></td>
+		<td><input type="button" name="nine" value="9" id="9" onclick="showData(9)"></input></td>
+		<td><input type="button" name="mul" value="*" id="*" onclick="showData('*')"></input></td>
+	</tr>
+	<tr>
+		<td><input type="button" name="zero" value="0" id="0" onclick="showData(0)"></input></td>
+		<td><input type="button" name="dot" value="." id="." onclick="showData('.')"></input></td>
+		<td><input type="button" name="equ" value="=" id="=" onclick="calculate()"></input></td>
+		<td><input type="button" name="met" value="/" id="/" onclick="showData('/')"></input></td>
+	</tr>
+</table>
+</body>
+</html>

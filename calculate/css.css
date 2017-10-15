@@ -1,0 +1,15 @@
+input{
+	width: 75px;
+	height: 75px;
+	background-color: c7c2c2;
+	color: black;
+	font-size: 25px;
+	font-weight: bolder;
+
+}
+#result{
+	width: 250px;
+	border: 0;
+	text-align: right;
+	font-size: 35px;
+}
