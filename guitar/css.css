@@ -1,0 +1,148 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(images/bg_2.jpg);
+}
+#top{
+	background-color: black;
+	height: 30px;
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 15px;
+}
+#nav{
+	list-style: none;
+	line-height: 30px;
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 400px;
+}
+#nav a:link,#nav a:visited{
+	display: block;
+	width: 100px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	background-color: black;
+}
+#nav a:hover{
+	color: white;
+	text-decoration: underline;
+	background-color: #96552d;
+}
+#nav ul{
+	list-style: none;
+}
+#nav ul li{
+	background-color: black;
+}
+#nav li{
+	width: 100px;
+	float: left;
+}
+#nav li ul li a:hover{
+	background-color: #96552d;
+}
+#nav li ul{
+	display: none;
+}
+#nav li.Display ul{
+	display: block;
+}
+#null{
+	height: 80px;
+}
+#content{
+	display: inline;
+	height: 500px;
+}
+#content_left{
+	width: 300px;
+	height: 250px;
+	border: 2px solid white;
+	margin-top: 50px;
+	margin-left: 60px;
+	padding: 0;
+	float: left;
+}
+#tit,#tit_2{
+	width: 300px;
+	height: 35px;
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	text-align: center;
+}
+#tit_one,#tit_two,#tit_three{
+	display: inline;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;	
+	border:1px solid white;
+	width: 100px;
+	height: 40px;
+}
+#tit a{
+	color: white;
+	text-decoration: none;
+}
+#tit a:hover{
+	cursor: pointer;
+}
+#choice{
+	text-align: center;
+	color: white;
+}
+#choice a{
+	text-decoration: none;
+	color: white;
+}
+#choice a:hover{
+	text-decoration: underline;
+}
+#exa{
+	display: none;
+}
+#cpt{
+	display: none;
+}
+#content_right{
+	width: 300px;
+	height: 260px;
+	margin-top: 52px;
+	margin-left: 600px;
+	background-color: rgba(0,0,0,0.5);
+	float: left;
+	border: 2px solid white;
+	color: white;
+}
+#bottom{
+	width: 2px solid white;
+	position: absolute;
+	font-family: "隶书";
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+}
+#bot{
+	position: absolute;
+	background-color: rgba(0,0,0,0.5);
+	width: 80px;
+	height: 30px;
+	border: 1px solid white;
+	text-align: center;
+}
+input{
+	width: 120px;
+}
+button{
+	width: 50px;
+	height: 20px;
+}
+span{
+	font-size: 10px;
+}
